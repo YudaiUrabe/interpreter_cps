@@ -1,11 +1,11 @@
 # interpreter_cps
 
-* Install 'dune' and 'ppx_inline_test': 'opam install dune ppx_inline_test'
+* Install `dune` and `ppx_inline_test`: `opam install dune ppx_inline_test`
 
-* Create the project: 'dune init proj interpreter_cps'
+* Create the project: `dune init proj interpreter_cps`
 
 * Directory Structure
-'''
+```
 interpreter_cps/
 ├── bin/                 # Directory for execution files
 │   ├── main.ml          # Entry point
@@ -19,8 +19,8 @@ interpreter_cps/
 ├── dune-project         # Project configuration file
 ├── interpreter_cps.opam  # opam configuration file
 └── .gitignore           # Git configuration
-'''
-* add modules to 'lib/'
-* 'dune build'
-* 'dune test'
+```
+* add modules to `lib/`
+* `dune build`
+* `dune test`
 
