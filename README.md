@@ -3,6 +3,8 @@
  REFERENCES:
 * http://pllab.is.ocha.ac.jp/interpreter.php
 
+---
+
 * Install `dune` and `ppx_inline_test`: `opam install dune ppx_inline_test`
 
 * Create the project: `dune init proj interpreter_cps`
@@ -24,6 +26,9 @@ interpreter_cps/
 └── interpreter_cps.opam  # opam configuration file
 
 ```
+
+---
+
 * add modules to `lib/`
 * `dune build`
 * `dune test`
