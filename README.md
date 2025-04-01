@@ -1,6 +1,6 @@
 # interpreter_cps
 
- REFERENCES:
+ REFERENCE:
 * http://pllab.is.ocha.ac.jp/interpreter.php
 
 ---
