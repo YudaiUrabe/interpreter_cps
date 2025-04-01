@@ -1,0 +1,4 @@
+(executable
+ (public_name interpreter_cps)
+ (name main)
+ (libraries interpreter_cps))
